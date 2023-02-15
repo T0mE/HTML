@@ -1,0 +1,327 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.logo {
+	width: 101px;
+	height: 38px;
+}
+
+header {
+	padding: 16px;
+}
+
+header {
+	width: 100%;
+	padding: 16px;
+	border-bottom: 1px solid #ddd;
+	background-color: #fff;
+	height: 64px;
+}
+
+header div {
+	display: flex;
+}
+
+nav ul {
+	list-style: none;
+}
+
+nav ul li {
+	display: inline-block;
+	font-size: 14px;
+	padding: 5px;
+}
+
+div a {
+	color: black;
+	text-decoration: none;
+	font-size: 24px;
+	margin-left: 10px;
+	margin-top: -5px;
+}
+
+.center {
+	align-items: center;
+	justify-content: space-between;
+	background-color: #fff;
+}
+
+div ul li {
+	list-style: none;
+	display: inline-block;
+	padding: 5px;
+}
+
+.menu {
+	height: 40px;
+	padding: 16px;
+}
+
+.topic {
+	display: flex;
+	flex-wrap: nowrap;
+	overflow: auto;
+}
+
+.inline-item {
+	flex: 0 0 auto;
+	font-weight: 400;
+}
+
+.inline-item a {
+	font-size: 14px;
+}
+
+.section {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+
+.cover {
+	display: flex;
+	justify-content: center;
+}
+
+.searchInput {
+	padding: 12px;
+	border: 1px solid #ddd;
+	width: 650px;
+}
+
+.searchBtn {
+	background: #ff5a00;
+	border-bottom-color: #ff5a00;
+	color: #fff;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	border-radius: 5%;
+	border: none;
+}
+
+button {
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+	font-family: 'Noto Serif Georgian', serif;
+}
+
+h2,
+h6 {
+	font-family: 'Roboto', sans-serif;
+	color: #222;
+}
+
+.photo {
+	width: 48px;
+	height: 48px;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+
+.author {
+	text-transform: uppercase;
+	color: #00a790;
+}
+
+.print {
+	color: #767676;
+	line-height: 2;
+}
+
+.about {
+	font-family: 'Open Sans', sans-serif;
+	color: #222222;
+	margin-bottom: 16px;
+}
+
+.link-color {
+	color: #00a790;
+}
+/* #wrapper {
+	width: 95%;
+	margin: 0 auto;
+}
+
+#header {
+	width: 100%;
+}
+
+#content {
+	width: 100%;
+}
+
+#sidebar {
+	width: 100%;
+}
+
+#footer {
+	width: 100%;
+} */
+
+/* // Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) {
+	section {
+		display: flex;
+		justify-content: center;
+		width: 100%;
+		padding: 0;
+	}
+
+	.content {
+		width: 66%;
+	}
+
+	.section {
+		width: 100%;
+		padding: 0;
+	}
+
+	.menu {
+		width: 520px;
+	}
+	.logo {
+		width: 96px;
+		height: 32px;
+	}
+
+	.imgHarry {
+		width: 477.33px;
+		height: 159.11px;
+	}
+
+	.searchInput {
+		font-size: 16px;
+		height: 48px;
+		width: 284px;
+	}
+
+	.searchBtn {
+		height: 48px;
+		width: 86px;
+		padding: 0 13px;
+	}
+
+	.title {
+		width: 66%;
+	}
+
+	h1 {
+		font-size: 36px;
+		line-height: 1.25;
+		font-weight: 300;
+		margin-bottom: 16px;
+	}
+
+	h2 {
+		font-size: 25px;
+		font-weight: 500;
+		line-height: 1.3;
+		margin-bottom: 16px;
+	}
+
+	h6 {
+		font-size: 17px;
+		font-weight: 500;
+		line-height: 1.3;
+		margin-bottom: 16px;
+	}
+
+	.description {
+		font-family: 'Noto Serif Georgian', serif;
+		font-size: 21px;
+		font-weight: 500;
+	}
+
+	.author-info {
+		display: flex;
+		/* justify-content: center; */
+		/* width: 100%; */
+	}
+
+	.autor-name p {
+		font-size: 14px;
+	}
+
+	.author {
+		font-size: 14px;
+	}
+
+	/* .author-info {
+		width: 66%;
+	} */
+
+	.author .time {
+		height: 21px;
+	}
+
+	.wrap-img {
+		padding: 16px;
+	}
+
+	.media {
+		display: flex;
+	}
+
+	.icon {
+		width: 26px;
+		height: 26px;
+	}
+
+	.center-img {
+		text-align: center;
+	}
+
+	.title-book {
+		width: 250px;
+	}
+
+	.about {
+		font-size: 17px;
+	}
+}
+
+/* // Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {
+	.logo {
+		width: 128px;
+		height: 44px;
+	}
+}
+
+#wrapper {
+	width: 90%;
+	margin: 0 auto;
+}
+
+#content {
+	width: 70%;
+	float: left;
+}
+
+/* // Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+	p {
+		font-size: 12px;
+	}
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {
+	#wrapper {
+		width: 90%;
+		margin: 0 auto;
+	}
+}
